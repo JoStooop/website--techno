@@ -1,0 +1,15 @@
+.nav{
+  margin-top: 15px;
+  margin-right: 50px;
+}
+.list{
+  display: flex;
+}
+
+.item{
+  margin-right: 92px;
+
+  &:nth-child(3) {
+    margin-right: 23px;
+  }
+}
