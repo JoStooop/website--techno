@@ -1,11 +1,9 @@
 import React from "react";
 import s from "./Footer.module.scss";
-import Header from "../header/Header";
 
 function Footer() {
   return (
     <div className={s.wrap}>
-      <Header />
       <div className={s.bottom}>
         <div className={s.left}>
           <p className={s.text}>

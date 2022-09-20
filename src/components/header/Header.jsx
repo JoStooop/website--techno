@@ -5,7 +5,7 @@ import Logo from "../logo/Logo";
 import MyWrap from "../ui/myWrap/MyWrap";
 import BG_COLORS from "../../data/bgColors";
 
-const arr = ["\\ services", "\\ about", "\\ contacts"];
+const arr = ["services", "about", "contacts"];
 
 function Header() {
   return (

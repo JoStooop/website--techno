@@ -1,16 +1,15 @@
 .nav{
   margin-top: 16px;
   margin-right: 50px;
-}
-.list{
   display: flex;
 }
 
 .item{
+  padding: 3px;
   cursor: pointer;
-  margin-right: 92px;
+  margin-left: 92px;
 
-  &:nth-child(3) {
-    margin-right: 23px;
+  &:nth-child(1) {
+    margin-left: 0;
   }
 }

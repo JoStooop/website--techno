@@ -13,10 +13,17 @@ body {
 }
 
 .app {
-  //position: relative;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
 }
 
+.active-link{
+  color: #45E5E5;
+}
+//.red{
+//  color: red;
+//}
 //.gradient {
 //  width: 100%;
 //  height: 409px;
@@ -42,11 +49,11 @@ body {
 //  height: 401px;
 //  background: linear-gradient(180deg, #0E0E10 0%, #4E34B9 94.79%);
 //}
-.gradient-purple-lilac{
-  margin-top: -1px;
-  width: 100%;
-  height: 404px;
-  background: linear-gradient(180deg, #4E34B9 0%, #8B5AA0 94.79%);
-}
+//.gradient-purple-lilac{
+//  margin-top: -1px;
+//  width: 100%;
+//  height: 404px;
+//  background: linear-gradient(180deg, #4E34B9 0%, #8B5AA0 94.79%);
+//}
 
 
