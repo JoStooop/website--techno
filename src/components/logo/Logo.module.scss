@@ -1,13 +1,13 @@
 .wrap{
   display: flex;
-  margin-right: 420px;
+  margin-right: 414px;
 }
 
 
 .logo{
   width: 200px;
   height: 50px;
-  background-image: url("src/assets/header/logo.svg");
+  background-image: url("../../assets/images/header/logo.svg");
   background-repeat: no-repeat;
 }
 
@@ -16,6 +16,6 @@
   margin-left: 30px;
   width: 100px;
   height: 50px;
-  background-image: url("src/assets/header/frame.svg");
+  background-image: url("../../assets/images/header/frame.svg");
   background-repeat: no-repeat;
 }

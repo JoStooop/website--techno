@@ -1,5 +1,5 @@
 .nav{
-  margin-top: 15px;
+  margin-top: 16px;
   margin-right: 50px;
 }
 .list{
@@ -7,6 +7,7 @@
 }
 
 .item{
+  cursor: pointer;
   margin-right: 92px;
 
   &:nth-child(3) {

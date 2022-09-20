@@ -1,0 +1,66 @@
+.wrap{
+  height: 800px;
+}
+
+.title{
+  margin-top: 166px;
+  //padding: 0 258px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 104.8%;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.titleSpan{
+  margin-left: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.center{
+  //padding: 0 258px;
+  margin-top: 71px;
+  margin-left: 5px;
+}
+
+.textCenter{
+  width: 389px;
+  height: 203px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  background: linear-gradient(90.23deg, #CA7342 9.61%, #BC1F1F 32.53%, #7F65B7 70.72%), #767676;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.slider{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 700px;
+}
+
+.sliderTop{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 250px;
+  padding-top: 75px;
+}
+.sliderBottom{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 250px;
+  padding-top: 40px;
+}
+
+.brand{
+  width: 200px;
+  height: 100px;
+  background: url("src/assets/images/clients-costa.svg") no-repeat center;
+}
