@@ -5,9 +5,12 @@
 }
 
 .item{
-  padding: 3px;
+  width: auto;
+  height: 30px;
+  padding: 5px;
   cursor: pointer;
   margin-left: 92px;
+  border-radius: 6px;
 
   &:nth-child(1) {
     margin-left: 0;

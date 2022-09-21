@@ -1,0 +1,48 @@
+.top {
+  position: relative;
+  display: flex;
+  height: 1185px;
+  color: #231F20;
+  overflow: hidden;
+}
+
+.desc_text {
+  z-index: 1;
+  width: 850px;
+}
+
+.title {
+  width: 450px;
+  padding-top: 150px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 116.3%;
+  letter-spacing: -0.02em;
+}
+
+.desc {
+  width: 350px;
+  margin-top: 20px;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about_team {
+  top: -90px;
+  left: 160px;
+  position: absolute;
+}
+
+.worker {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  padding-bottom: 400px;
+  z-index: 1;
+  margin-right: 40px;
+}

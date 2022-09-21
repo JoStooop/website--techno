@@ -4,6 +4,7 @@ const BG_COLORS = {
   WHITE: "#ffffff",
   PURPLE: "#4E34B9",
   LILAC: "#8B5AA0",
+  YELLOW: "#F1DE0B",
 };
 
 export default BG_COLORS;

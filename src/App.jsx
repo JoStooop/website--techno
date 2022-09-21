@@ -16,10 +16,10 @@ function App() {
         <Route path="/" element={<LayoutPage />}>
           <Route index element={<HomePage />} />
           <Route path="services" element={<ServicesPage />} />
-          <Route path="about" element={<AboutPage />} />
           <Route path="contacts" element={<ContactsPage />} />
-          <Route path="*" element={<NotFoundPage />} />
         </Route>
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );

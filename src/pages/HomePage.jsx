@@ -1,5 +1,5 @@
 import React from "react";
-import CompanyDesc from "../components/company-description/CompanyDesc";
+import CompanyDesc from "../components/company-desc/CompanyDesc";
 import MyBlockGradient from "../components/ui/myBlockGradient/MyBlockGradient";
 import Team from "../components/team/Team";
 import Clients from "../components/clients/Clients";

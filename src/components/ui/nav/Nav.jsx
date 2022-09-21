@@ -3,16 +3,22 @@ import { NavLink } from "react-router-dom";
 import s from "./Nav.module.scss";
 
 function Nav(props) {
-  const { items } = props;
+  const {
+    items,
+    color
+  } = props;
 
-  const setActive = ({ isActive }) => ({ color: isActive ? "teal" : "white" });
+  const setActive = ({ isActive }) => ({
+    color: isActive ? "red" : color,
+  });
 
   const showItem = items.map((item) => (
+
     <NavLink
       key={item}
       className={s.item}
       style={setActive}
-      to={item}>
+      to={`/${item}`}>
       \ {item}
     </NavLink>
   ));

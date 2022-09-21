@@ -2,13 +2,26 @@ import React from "react";
 import { Link } from "react-router-dom";
 import s from "./Logo.module.scss";
 
-function Logo() {
+function Logo(props) {
+  const {
+    color,
+    logoImg
+  } = props;
+
+  const styleFrame = {
+    color
+  };
+
+  const styleLogo = {
+    backgroundImage: `url(${logoImg})`,
+  };
+
   return (
     <div className={s.wrap}>
       <Link to="/">
-        <div className={s.logo} />
+        <div style={styleLogo} className={s.logo} />
       </Link>
-      <div className={s.frame} />
+      <div style={styleFrame} className={s.frame}>custom it solution</div>
     </div>
   );
 }
