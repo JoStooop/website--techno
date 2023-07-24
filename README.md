@@ -6,7 +6,7 @@
 ## Website preview:
 <details><summary><b>Show screenshots</b></summary>
 
-![screen--jostooop--website-blank](readme-images/screen--jostooop--website-techno.png)
+![screen--jostooop--website-techno](readme-images/screen--jostooop--website-techno.png)
 </details>
 
 ## Details:
