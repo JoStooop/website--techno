@@ -16,8 +16,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=F8C52)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
+## Details:
 Layout: [Open](https://www.figma.com/file/ftmHmLSloXCoC1l7nOzQ0M/Techna-info?type=design&node-id=0-1&mode=design&t=u0vMxThYSqgytZin-0)
 
 ## Deploy
